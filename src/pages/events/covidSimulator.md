@@ -1,79 +1,115 @@
 ---
-title: September Hackathon 🍁🍂 Portfolio Edition
-slug: september-hackathon
-date: 2022-8-31
+title: October Hackathon 🎃  API Edition
+slug: october-hackathon
+date: 2022-10-3
 author: Dennis Ivy
-read_time: 2
-tags: [python, javascript]
+read_time: 1
+tags: []
 order: 2
-draft: true
-past: true
+draft: false
+past: false
+emoji: "🔧"
 ---
 
-Wanna showcase your portfolio website? Join the september hackathon for a chance to win $100 and bragging rights!
+Calling all backend and frontend developers to participate in the October Hackathon!
 
-Results will be announced via live stream on my [YouTube Channel](https://www.youtube.com/watch?v=X2473En3h_o) on september 29th.
+## 🎯 Objective
 
-## 💰 Hackathon overview
+As a developer advocate at Agora, I am always looking to collaborate with Advocates from other companies. Wouldn't it be nice to have a website I can visit to find other advocates?
 
-On september 29th judges will determine the top 5 winners who will recieve **$150**.
+In this hackathon we are gonna work together as backend and frontend developers to fix this issue.
 
-Judges will also decide which portfolio's meet the standard of what makes a quality portfolio. Portfolios wich meet the "quality" standard will be entered into a random drawing raffle for a change to win **$100**, 7 winners will be drawn.
-
-#### - <a href="https://forms.gle/jb6RzZx82kPvXmud8" target="_blank">REGISTER HERE!</a>
-
-#### - <a href="https://discord.gg/JF6M722Tkt" target="_blank">Join the discord server</a>
-
-#### - <a href="https://forms.gle/ZJAzcpUfjES7hsk59" target="_blank"> Submit Portfolio</a>
-
-## 💰 Prize Money
-
-- $150 for each winner in top 5
-- $100 for each winner in random draw
-
-Total winners will be determined by the amount of money raised from sponsors. Total raised so far is $1,500
-
-```
-Total Winners =  (Total Raised / Prize Money) = 12
-```
+Pick one of the two challenges below and build based off of the parameters set.
 
 ## 📆 Important Dates
 
-- Start Date: Now
-- Registration Deadline - Sept 20th 12:00am PST
-- Submission Deadline - Sept 25th 12:00am PST
-- Winners live stream - Sept 28th, 10:30am PST
+- Start date: 10/10
+- Submission deadline: 11/5
+- Winners announcement: Maybe 11/10??
 
-## 👇 Who can participate
+## 💰 Prize Money
 
-Frontend, backend and fullstack developers
+6 Grand prize winners for a total of $1,500!
 
-## ‍⚖️ Judges
+✋ How to participate
 
-<!-- - Tadas Petra: [YouTube](https://www.youtube.com/c/TadasPetra), [Twitter](https://twitter.com/tadaspetra) -->
-
-- Dennis Ivy: [YouTube](https://www.youtube.com/c/dennisivy), [Twitter](https://twitter.com/dennisivy11)
-- Francesco Cuilla: [Youtube](https://www.youtube.com/c/FrancescoCiulla), [Twitter](https://twitter.com/FrancescoCiull4)
-- Danny Thompson - [Twitter](https://twitter.com/DThompsonDev), [YouTube](https://www.youtube.com/c/DThompsonDev)
-
-## ⭐ Sponsors
-
-- [Agora.io](https://www.agora.io/en/)
-- [daily.dev](https://daily.dev/)
-
-## 🛠️ Requirements
-
-- Website must have a live URL
-- Provide a link to your github profile
-
-## 🤔 FAQ
-
-**Q:** Can I use a template?
-<br>
-**A:** Yes, but any submissions that used template must specify this. If you used a template you can be entered in the random drawing challenge but cannot win the "Top Portfolio" challenge.
+- Register - <a href="https://codebattles.dev/" target="_blanl">CodeBattles.dev</a>
+- Pick a challange
+- Submit project before deadline
 
 <br>
 
-**Q:** Can I sumbit my current portoflio website or do I have to build a new one?
+### ⚙️ Challenge 1 - 💻 For Backend Devs
+
 <br>
-**A:** Yes you can submit what you already have. You DO NOT need to rebuilt a new website.
+
+💰 Prize money: $200 - 5 winners will be selected
+
+Build an API that outputs a list of developer advocates with their details such as where they work, social links, bio, etc. Example API response bellow.
+
+**Project Requirements**
+
+Your API should at a minumum have these 2 endpoints
+
+1. `/advocates`
+2. `/advocates/:username`
+
+Your API should be searchable (By user name), paginated.
+
+Ex:
+
+`/advocates/?query=dennis`
+
+Your endpoints should provide links to user profile pictures and company logos.
+
+User Data Ex:
+
+```json
+// advocates/:id
+{
+  "advocates": [
+    {
+      "profile_pic": "https://pbs.twimg.com/profile_images/1489066537407365126/iViPGBVE_400x400.jpg",
+      "username": "dennisivy11",
+      "name": "Dennis Ivy",
+      "bio": "YouTuber, contributor at @traversymedia , developer advocate @agoraio and online instructor.",
+      "twitter": "https://twitter.com/dennisivy11"
+    }
+  ]
+}
+```
+
+**Submission Requirements**
+
+- Github link
+- Live URL - API must be hosted
+- Tag Agora on Twitter OR Linkedin
+
+🧑‍⚖️ What Judges Are Looking For
+
+Judges are looking for an API that works and has data as in example above. If requirements are met, your name will be entered into a raffle for a chance to win $200. 5 winners will be chosen.
+
+<br>
+
+### ⚙️ Challenge 2 - 🎨 For Frontend Devs & Designers
+
+<br>
+
+💰 Prize money: $500 - 1 winner will be selected
+
+Using the the data provided in this link (<a href="https://cados.up.railway.app/" target="_blank">cados.up.railway.app</a>), design and code up a template which consumes the API.
+
+Your website should at a minumum have these 2 pages
+
+1. `/advocates`
+2. `/advocates/:username`
+
+`Requirements`
+
+- Github link
+- Live URL
+- 2 Pages
+
+🧑‍⚖️ What Judges Are Looking For
+
+Judges are looking for the BEST design and most usable template (clean code). The winning template will be used in a live project to complete the website "cados.dev".
