@@ -8,6 +8,7 @@ tags: [Java]
 order: 1
 hero: /src/images/posts/java-img/javaBanner.jpg
 draft: false
+emoji: "</>"
 ---
 
 These blogs will help you learn Java Programming & Concepts in a simple and effective way.

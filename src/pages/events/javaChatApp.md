@@ -1,115 +1,79 @@
 ---
-title: October Hackathon 🎃  API Edition
-slug: october-hackathon
-date: 2022-10-3
-author: Dennis Ivy
+title: Java Chat Application
+slug: chat-application
+date: 2019-1-3
+author: Atharva Joshi
 read_time: 1
-tags: []
+tags: ["Java", "MySQL", "JDBC"]
 order: 2
+hero: /src/images/posts/project-imgs/chat.png
 draft: false
 past: false
-emoji: "🔧"
+emoji: "❝ ❞"
 ---
 
-Calling all backend and frontend developers to participate in the October Hackathon!
+## Java Chat App 💬
 
-## 🎯 Objective
+The Java Chat App is a desktop-based chat application developed using Java and MySQL. It utilizes Socket programming for communication and MySQL for user authentication and storage of profile information. The application allows users to send messages, create/join chat rooms, upload profile images, and customize the app theme.
 
-As a developer advocate at Agora, I am always looking to collaborate with Advocates from other companies. Wouldn't it be nice to have a website I can visit to find other advocates?
+### Key Features 🚀
 
-In this hackathon we are gonna work together as backend and frontend developers to fix this issue.
+- **Real-time Messaging**: Utilizes Socket programming for fast and reliable communication between clients.
+- **User Authentication**: Stores user credentials securely in MySQL for login and authentication.
+- **Profile Management**: Allows users to upload profile images and update user information.
+- **Customizable Chat Rooms**: Users can create and join chat rooms based on interests or topics.
+- **Theme Customization**: Provides options to change the app theme for personalized user experience.
 
-Pick one of the two challenges below and build based off of the parameters set.
+### Project Preview 📷
 
-## 📆 Important Dates
+![Java Chat App Preview](https://raw.githubusercontent.com/atharva20-coder/java-Chat-app/master/chat%20app.png)
 
-- Start date: 10/10
-- Submission deadline: 11/5
-- Winners announcement: Maybe 11/10??
+### Project Setup 🛠️
 
-## 💰 Prize Money
+To set up this project, follow these steps:
 
-6 Grand prize winners for a total of $1,500!
+1. **Import MySQL Connector**:
 
-✋ How to participate
+   - Download the MySQL Connector JAR file and add it to your project's library.
 
-- Register - <a href="https://codebattles.dev/" target="_blanl">CodeBattles.dev</a>
-- Pick a challange
-- Submit project before deadline
+2. **Database Setup**:
 
-<br>
+   - Create a MySQL database named `chat` using the following query:
+     ```sql
+     create database chat;
+     ```
+   - Switch to the `chat` database:
+     ```sql
+     use chat;
+     ```
+   - Import the provided SQL file (`chat.sql`) into your MySQL database to set up tables:
+     ```sql
+     source {path of the file}/chat.sql;
+     ```
 
-### ⚙️ Challenge 1 - 💻 For Backend Devs
+3. **Run the Project**:
+   - Open the project in your IDE.
+   - Update MySQL password if JDBC connection errors occur.
+   - Run the project to launch the Java Chat App.
+   - First run the server then launch the clients
 
-<br>
+### Links 🔗
 
-💰 Prize money: $200 - 5 winners will be selected
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-Build an API that outputs a list of developer advocates with their details such as where they work, social links, bio, etc. Example API response bellow.
+<div style="flex: 1; min-width: 150px; border: 1px solid #ddd; border-radius: 5px; padding: 10px; text-align: center;">
+  <a href="https://github.com/atharva20-coder/java-Chat-app" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+    <svg height="24" width="24" viewBox="0 0 16 16" version="1.1" aria-hidden="true" style="fill: #000; margin-right: 5px;">
+      <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.45.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg>
+    GitHub Repository
+  </a>
+</div>
 
-**Project Requirements**
-
-Your API should at a minumum have these 2 endpoints
-
-1. `/advocates`
-2. `/advocates/:username`
-
-Your API should be searchable (By user name), paginated.
-
-Ex:
-
-`/advocates/?query=dennis`
-
-Your endpoints should provide links to user profile pictures and company logos.
-
-User Data Ex:
-
-```json
-// advocates/:id
-{
-  "advocates": [
-    {
-      "profile_pic": "https://pbs.twimg.com/profile_images/1489066537407365126/iViPGBVE_400x400.jpg",
-      "username": "dennisivy11",
-      "name": "Dennis Ivy",
-      "bio": "YouTuber, contributor at @traversymedia , developer advocate @agoraio and online instructor.",
-      "twitter": "https://twitter.com/dennisivy11"
-    }
-  ]
-}
-```
-
-**Submission Requirements**
-
-- Github link
-- Live URL - API must be hosted
-- Tag Agora on Twitter OR Linkedin
-
-🧑‍⚖️ What Judges Are Looking For
-
-Judges are looking for an API that works and has data as in example above. If requirements are met, your name will be entered into a raffle for a chance to win $200. 5 winners will be chosen.
+</div>
 
 <br>
 
-### ⚙️ Challenge 2 - 🎨 For Frontend Devs & Designers
+---
 
-<br>
-
-💰 Prize money: $500 - 1 winner will be selected
-
-Using the the data provided in this link (<a href="https://cados.up.railway.app/" target="_blank">cados.up.railway.app</a>), design and code up a template which consumes the API.
-
-Your website should at a minumum have these 2 pages
-
-1. `/advocates`
-2. `/advocates/:username`
-
-`Requirements`
-
-- Github link
-- Live URL
-- 2 Pages
-
-🧑‍⚖️ What Judges Are Looking For
-
-Judges are looking for the BEST design and most usable template (clean code). The winning template will be used in a live project to complete the website "cados.dev".
+Enjoy chatting with friends and colleagues using the Java Chat App! 🌐💬

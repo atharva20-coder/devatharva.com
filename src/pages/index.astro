@@ -36,11 +36,11 @@ events = events.filter((event) => !event.frontmatter.draft);
     <div>
       <h1 id="user-name">Atharva Joshi</h1>
       <p id="bio">
-        Software developer, Undergrad student at <a
+        Software developer, <!--Undergrad student at <a
           href="https://www.rknec.edu"
           target="_blank"
           >Shri Ramdeobaba College of Engineering and Management</a
-        >
+        > -->
         I explain with words and code.
       </p>
     </div>
@@ -72,8 +72,11 @@ events = events.filter((event) => !event.frontmatter.draft);
       </a>
     </div>
     <div id="course-preview-body">
-      <h3>Start Learning Django Today</h3>
-      <p>Learn to build awesome websites with Python & Django today!</p>
+      <h3>Start Learning Java Today</h3>
+      <p>
+        Start cracking Leetcode Questions daily while learning DSA & Building
+        some awesome projects !
+      </p>
       <a
         class="btn btn--md"
         href="https://www.youtube.com/channel/UC00tKJ0LDjBtGYMFk_L41gw"
@@ -85,7 +88,7 @@ events = events.filter((event) => !event.frontmatter.draft);
     (
       <section class="section--page">
         <a id="events" />
-        <h3>Projects</h3>
+        <h3>🚀 Projects</h3>
 
         {events.map((event) => (
           <EventPreview frontmatter={event.frontmatter} />
@@ -96,7 +99,7 @@ events = events.filter((event) => !event.frontmatter.draft);
 
   <section class="section--page">
     <a id="blog"></a>
-    <h3>Latest Posts</h3>
+    <h3>👀 Latest Posts</h3>
 
     {posts.map((post) => <ArticlePreview frontmatter={post.frontmatter} />)}
   </section>

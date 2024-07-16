@@ -7,6 +7,7 @@ read_time: 1
 tags: []
 order: 1
 draft: false
+emoji: "🤯"
 ---
 
 A collection of promising startups and projects I am watching this year. Some of these are companies with venture backed capital; and some are side projects, either way, I think everything on this list is pretty cool and worth a try.

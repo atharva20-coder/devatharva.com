@@ -8,6 +8,7 @@ tags: [Git and Github]
 order: 1
 hero: https://images.datacamp.com/image/upload/v1651047046/image8_0e61d0dad8.png
 draft: false
+emoji: "👨🏻‍💻"
 ---
 
 So you have a project on your local desktop and now you want to get these files up on github.com, here’s how you can do this.

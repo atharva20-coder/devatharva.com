@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 5
 tags: [GitHub]
 order: 1
-hero: https://images.datacamp.com/image/upload/v1651047046/image8_0e61d0dad8.png
+hero: /src/images/posts/project-imgs/git.gif
 draft: false
 ---
 

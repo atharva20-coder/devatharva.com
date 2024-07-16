@@ -1,115 +1,70 @@
 ---
-title: October Hackathon 🎃  API Edition
-slug: october-hackathon
-date: 2022-10-3
-author: Dennis Ivy
-read_time: 1
-tags: []
+title: 3D Periodic Table 🔬
+slug: 3D-periodic-table
+date: 2017-10-3
+author: Atharva Joshi
+read_time: 3
+tags: ["HTML", "CSS", "JS"]
 order: 2
+hero: /src/images/posts/project-imgs/periodic.png
 draft: false
 past: false
-emoji: "🔧"
+emoji: "🧪"
 ---
 
-Calling all backend and frontend developers to participate in the October Hackathon!
+The Dynamic Periodic Table is a web-based application built using HTML, CSS, and JavaScript, providing users with a visual representation of the periodic table. The application includes several features that enhance the user experience, such as viewing detailed information about each element and interacting with the periodic table in real-time.
 
-## 🎯 Objective
+### Features 🌟
 
-As a developer advocate at Agora, I am always looking to collaborate with Advocates from other companies. Wouldn't it be nice to have a website I can visit to find other advocates?
+- **Interactive User Interface**: Created using HTML and CSS, the interface allows users to easily navigate and interact with the periodic table.
+- **Hover Effects and Clickable Elements**: Users can explore the periodic table in detail through various interactive elements.
+- **Search Function 🔍**: Quickly find information about specific elements using the built-in search function.
+- **Detailed Element Information 📋**:
+  - Atomic number
+  - Symbol
+  - Name
+  - Electron configuration
+  - Additional details on properties, history, and uses.
+- **Highlighting Groups and Periods**: Users can highlight specific groups or periods, offering a powerful visual representation of the relationships between elements.
 
-In this hackathon we are gonna work together as backend and frontend developers to fix this issue.
+### Benefits 🎓
 
-Pick one of the two challenges below and build based off of the parameters set.
+The Dynamic Periodic Table is a valuable tool for anyone looking to better understand the periodic table and the properties of different elements. Whether for personal or professional use, this application provides users with a powerful tool for visualizing and exploring the periodic table in detail.
 
-## 📆 Important Dates
+### Links 🔗
 
-- Start date: 10/10
-- Submission deadline: 11/5
-- Winners announcement: Maybe 11/10??
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-## 💰 Prize Money
+<div style="flex: 1; min-width: 150px; border: 1px solid #ddd; border-radius: 5px; padding: 10px; text-align: center;">
+  <a href="https://github.com/atharva20-coder/periodic-table" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+    <svg height="24" width="24" viewBox="0 0 16 16" version="1.1" aria-hidden="true" style="fill: #000; margin-right: 5px;">
+      <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.45.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg>
+    GitHub Repository
+  </a>
+</div>
 
-6 Grand prize winners for a total of $1,500!
+<div style="flex: 1; min-width: 150px; border: 1px solid #ddd; border-radius: 5px; padding: 10px; text-align: center;">
+  <a href="https://dynamic-periodic-table.netlify.app/" target="_blank">Live Preview 1</a>
+</div>
 
-✋ How to participate
+<div style="flex: 1; min-width: 150px; border: 1px solid #ddd; border-radius: 5px; padding: 10px; text-align: center;">
+  <a href="https://github.com/atharva20-coder/3d-periodic-table" target="_blank" style="display: flex; align-items: center; justify-content: center;">
+    <svg height="24" width="24" viewBox="0 0 16 16" version="1.1" aria-hidden="true" style="fill: #000; margin-right: 5px;">
+      <path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.45.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
+    </svg>
+    GitHub Repository
+  </a>
+</div>
 
-- Register - <a href="https://codebattles.dev/" target="_blanl">CodeBattles.dev</a>
-- Pick a challange
-- Submit project before deadline
+<div style="flex: 1; min-width: 150px; border: 1px solid #ddd; border-radius: 5px; padding: 10px; text-align: center;">
+  <a href="https://modernperiodictable.netlify.app/" target="_blank">Live Preview 2</a>
+</div>
 
-<br>
-
-### ⚙️ Challenge 1 - 💻 For Backend Devs
-
-<br>
-
-💰 Prize money: $200 - 5 winners will be selected
-
-Build an API that outputs a list of developer advocates with their details such as where they work, social links, bio, etc. Example API response bellow.
-
-**Project Requirements**
-
-Your API should at a minumum have these 2 endpoints
-
-1. `/advocates`
-2. `/advocates/:username`
-
-Your API should be searchable (By user name), paginated.
-
-Ex:
-
-`/advocates/?query=dennis`
-
-Your endpoints should provide links to user profile pictures and company logos.
-
-User Data Ex:
-
-```json
-// advocates/:id
-{
-  "advocates": [
-    {
-      "profile_pic": "https://pbs.twimg.com/profile_images/1489066537407365126/iViPGBVE_400x400.jpg",
-      "username": "dennisivy11",
-      "name": "Dennis Ivy",
-      "bio": "YouTuber, contributor at @traversymedia , developer advocate @agoraio and online instructor.",
-      "twitter": "https://twitter.com/dennisivy11"
-    }
-  ]
-}
-```
-
-**Submission Requirements**
-
-- Github link
-- Live URL - API must be hosted
-- Tag Agora on Twitter OR Linkedin
-
-🧑‍⚖️ What Judges Are Looking For
-
-Judges are looking for an API that works and has data as in example above. If requirements are met, your name will be entered into a raffle for a chance to win $200. 5 winners will be chosen.
+</div>
 
 <br>
 
-### ⚙️ Challenge 2 - 🎨 For Frontend Devs & Designers
+---
 
-<br>
-
-💰 Prize money: $500 - 1 winner will be selected
-
-Using the the data provided in this link (<a href="https://cados.up.railway.app/" target="_blank">cados.up.railway.app</a>), design and code up a template which consumes the API.
-
-Your website should at a minumum have these 2 pages
-
-1. `/advocates`
-2. `/advocates/:username`
-
-`Requirements`
-
-- Github link
-- Live URL
-- 2 Pages
-
-🧑‍⚖️ What Judges Are Looking For
-
-Judges are looking for the BEST design and most usable template (clean code). The winning template will be used in a live project to complete the website "cados.dev".
+**Explore the elements in an interactive and detailed manner with the Dynamic Periodic Table!** 🌐

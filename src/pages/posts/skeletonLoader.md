@@ -4,10 +4,11 @@ slug: skeleton-loadder-ui-using-html-css
 date: 2021-7-25
 author: Atharva Joshi
 read_time: 4
-tags: [HTML, CSS]
+tags: ["HTML", "CSS"]
 order: 3
 hero: https://atharvacodes.netlify.app/static/92c091b4e6d2f27a1cd5db77c85e23b0/d61c2/skeleton.png
 draft: false
+emoji: "💀"
 ---
 
 ### Build a simple Skeleton Card loader component using <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" style="vertical-align:middle" alt="react-background"> and <img src="https://img.shields.io/badge/CSS-239120?&style=for-the-badge&logo=css3&logoColor=white" style="vertical-align:middle" alt="react-background">.

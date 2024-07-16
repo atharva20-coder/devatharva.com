@@ -8,6 +8,7 @@ tags: [HTML, CSS]
 order: 3
 hero: https://atharvacodes.netlify.app/static/a41843444900a315c63641d3b2e09d20/00d43/js.png
 draft: false
+emoji: "🤳"
 ---
 
 **Hello Geeks 👋,** In this blog we will learn JavaScript to easily integrate your webcam into a web page.
