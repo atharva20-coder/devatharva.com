@@ -1,0 +1,107 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+import ArticlePreview from "../components/ArticlePreview.astro";
+import EventPreview from "../components/EventPreview.astro";
+import Winners from "../components/Winners.astro";
+
+import profile_pic from "../images/profile_pic.jpg";
+import course from "../images/course.png";
+import { FileText, ArrowRight, Play, Calendar } from "react-feather";
+
+let posts = (await Astro.glob("./posts/*.{md,mdx}")).sort(
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf()
+);
+posts = posts.filter((post) => !post.frontmatter.draft);
+
+//Orderd By "order attribute"
+// const posts = (await Astro.glob('./posts/*.{md,mdx}')).sort(
+// 	(a, b) => b.frontmatter.order - a.frontmatter.order
+// );
+
+let events = (await Astro.glob("./events/*.{md,mdx}")).sort(
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf()
+);
+events = events.filter((event) => !event.frontmatter.draft);
+---
+
+<Layout title="Atharva Joshi">
+  <section id="wrapper--hero" class="section--page">
+    <img id="profile-pic" src={profile_pic} />
+
+    <div>
+      <h1 id="user-name">Atharva Joshi</h1>
+      <p id="bio">
+        Software developer, Undergrad student at <a
+          href="https://www.rknec.edu"
+          target="_blank"
+          >Shri Ramdeobaba College of Engineering and Management</a
+        >
+        I explain with words and code.
+      </p>
+    </div>
+  </section>
+
+  <section class="section--page">
+    <div id="socials--list">
+      <!--<a href="https://www.instagram.com/nerd.atharva/" target="_blank"
+        >Instagram</a
+      >-->
+      <a href="https://www.linkedin.com/in/atharva20/" target="_blank"
+        >Linkedin</a
+      >
+      <a href="https://github.com/atharva20-coder/" target="_blank">Github</a>
+      <a
+        href="https://drive.google.com/file/d/1uLYoAof9gBq6pBdGnndLLin8-Qx70AYS/view?usp=sharing"
+        target="_blank">Resume</a
+      >
+    </div>
+  </section>
+
+  <section class="section--page course-preview">
+    <div class="course-preview-image-border">
+      <a
+        href="https://www.youtube.com/channel/UC00tKJ0LDjBtGYMFk_L41gw"
+        target="_blank"
+      >
+        <img class="course-preview-image" src={course} />
+      </a>
+    </div>
+    <div id="course-preview-body">
+      <h3>Start Learning Django Today</h3>
+      <p>Learn to build awesome websites with Python & Django today!</p>
+      <a
+        class="btn btn--md"
+        href="https://www.youtube.com/channel/UC00tKJ0LDjBtGYMFk_L41gw"
+        target="_blank"><Play width="16px" height="16px" />View Course</a
+      >
+    </div>
+  </section>
+  {
+    (
+      <section class="section--page">
+        <a id="events" />
+        <h3>Projects</h3>
+
+        {events.map((event) => (
+          <EventPreview frontmatter={event.frontmatter} />
+        ))}
+      </section>
+    )
+  }
+
+  <section class="section--page">
+    <a id="blog"></a>
+    <h3>Latest Posts</h3>
+
+    {posts.map((post) => <ArticlePreview frontmatter={post.frontmatter} />)}
+  </section>
+
+  {/*<Winners/>*/}
+  <br />
+  <br />
+</Layout>

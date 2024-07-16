@@ -1,0 +1,108 @@
+---
+import profile_pic from "../images/profile_pic.jpg";
+import femi from "../images/femi.jpg";
+import fifi from "../images/fifi.jpg";
+import sahil from "../images/sahil.jpg";
+import sudhanshu from "../images/sudhanshu.jpg";
+
+import "../styles/winners.css";
+---
+
+<section>
+  <div id="winners"></div>
+  <h3>Wall Of Winners</h3>
+  <p>
+    Meet the winners of previous hackathons. Each and every winner here poured
+    their heart into their project and excelled beyond their peers.
+  </p>
+
+  <div id="winners--wrapper">
+    <a href="https://twitter.com/PraveenMalethia" target="_blank">
+      <div class="winner--card">
+        <div class="winner--card--header">
+          <div class="winner--avatar__border">
+            <img
+              class="winner--avatar"
+              src="https://pbs.twimg.com/profile_images/1565194670443208704/hD0twZgf_400x400.jpg"
+            />
+          </div>
+          <div>
+            <p class="winner--name">Praveen Kumar</p>
+            <small>Code Battle</small>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <div class="winner--card">
+      <div class="winner--card--header">
+        <div class="winner--avatar__border">
+          <img
+            class="winner--avatar"
+            src="https://media.discordapp.net/attachments/991589402071543818/1015163728959918162/profile-photo.jpg?width=702&height=702"
+          />
+        </div>
+        <div>
+          <p class="winner--name">Adarsh</p>
+          <small>Code Battle</small>
+        </div>
+      </div>
+    </div>
+
+    <a href="https://twitter.com/Sahilkhanna07" target="_blank">
+      <div class="winner--card">
+        <div class="winner--card--header">
+          <div class="winner--avatar__border">
+            <img class="winner--avatar" src={sahil} />
+          </div>
+          <div>
+            <p class="winner--name">Sahil</p>
+            <small>Code Battle</small>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://twitter.com/stephaniefifi_" target="_blank">
+      <div class="winner--card">
+        <div class="winner--card--header">
+          <div class="winner--avatar__border">
+            <img class="winner--avatar" src={fifi} />
+          </div>
+          <div>
+            <p class="winner--name">Fifi</p>
+            <small>Code Battle</small>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://twitter.com/sudhanshu_p_12" target="_blank">
+      <div class="winner--card">
+        <div class="winner--card--header">
+          <div class="winner--avatar__border">
+            <img class="winner--avatar" src={sudhanshu} />
+          </div>
+          <div>
+            <p class="winner--name">Sudhanshu Prasad</p>
+            <small>Design Battle</small>
+          </div>
+        </div>
+      </div>
+    </a>
+
+    <a href="https://www.linkedin.com/in/femiodejide" target="_blank">
+      <div class="winner--card">
+        <div class="winner--card--header">
+          <div class="winner--avatar__border">
+            <img class="winner--avatar" src={femi} />
+          </div>
+          <div>
+            <p class="winner--name">Femi</p>
+            <small>Design Battle</small>
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</section>
