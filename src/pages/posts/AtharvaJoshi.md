@@ -120,7 +120,7 @@ An ambitious boy who loves to day dream at nights and sometime codes too.😉�
 
 ### 👯 My other interests
 
-I have a knack for writing too and write on my personal [blogs](https://atharva-codes.netlify.app/).
+I have a knack for writing too and write on my personal [blogs](https://devatharvajoshi.vercel.app/#blog).
 I look forward to absorb knowledge🧠,gain experience👨‍🏭, collaborate🤝 and build amazing products 🏭for the world🌍!
 
 ### 📫 How to reach me?
