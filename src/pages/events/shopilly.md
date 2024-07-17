@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 1
 tags: ["React", "HTML", "CSS", "JS", "Commerecejs API"]
 order: 2
-hero: /src/images/posts/project-imgs/shop.png
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/shop.png
 draft: false
 past: false
 emoji: "🛒"

@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 1
 tags: ["Java", "MySQL", "JDBC"]
 order: 2
-hero: /src/images/posts/project-imgs/chat.png
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/chat.png
 draft: false
 past: false
 emoji: "❝ ❞"

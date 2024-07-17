@@ -35,11 +35,11 @@ CyberGrid Guardian is a comprehensive numerical relay system designed for real-t
 ![p5](https://github.com/atharva20-coder/cyberGrid/assets/69634375/dc3dce40-7ae0-4474-a2cb-bd3ff00e8c3d)
 ![p6](https://github.com/atharva20-coder/cyberGrid/assets/69634375/64af53af-b0c7-41e4-a6ff-bfde3a69fc2f)
 
-<div>
-        <video controls width="800" autoplay muted>
+<!-- <div>
+        <video controls width="600" autoplay muted>
             <source src="/src/images/posts/project-imgs/project.mp4" type="video/mp4">
         </video>
-</div>
+</div> -->
 
 ### Hardware Implementation ⚙️
 

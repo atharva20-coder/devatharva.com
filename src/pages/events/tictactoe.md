@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 1
 tags: ["HTML", "CSS", "JS"]
 order: 2
-hero: src\images\posts\project-imgs\tic_tac_toe_loader_.gif
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/tic_tac_toe_loader_.gif
 draft: false
 past: false
 emoji: "#️⃣"

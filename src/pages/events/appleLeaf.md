@@ -13,7 +13,7 @@ tags:
     "Tensorflow",
   ]
 order: 2
-hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-img/ml.png
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/ml.png
 draft: false
 past: false
 emoji: "✨"

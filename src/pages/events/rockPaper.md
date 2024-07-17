@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 1
 tags: [HTML, CSS, JS]
 order: 2
-hero: /src/images/posts/project-imgs/rock.gif
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/rock.gif
 draft: false
 past: false
 emoji: "🕹️"

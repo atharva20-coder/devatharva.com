@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 1
 tags: ["React", "NodeJs", "Firebase"]
 order: 2
-hero:
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/vilify.png
 draft: false
 past: false
 emoji: "👻"
