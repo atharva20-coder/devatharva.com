@@ -13,9 +13,9 @@ emoji: "🏡🔋"
 ---
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="/src/images/posts/project-imgs/solalign1.jpeg" alt="solalign1" style="width: 30%;">
-    <img src="/src/images/posts/project-imgs/solalign2.jpeg" alt="solalign2" style="width: 30%;">
-    <img src="/src/images/posts/project-imgs/solalign3.jpeg" alt="solalign3" style="width: 30%;">
+    <img src="https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/solalign1.jpeg" alt="solalign1" style="width: 30%;">
+    <img src="https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/solalign2.jpeg" alt="solalign2" style="width: 30%;">
+    <img src="https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/solalign3.jpeg" alt="solalign3" style="width: 30%;">
 </div>
 
 In my project "SolAlign," I developed an Android app aimed at assisting users in determining the optimal tilt and azimuth angles for solar panels to maximize energy production efficiency. The app utilizes location services and geocoding to fetch precise geographic coordinates based on user input or current device location.
