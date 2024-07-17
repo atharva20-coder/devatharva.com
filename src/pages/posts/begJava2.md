@@ -150,7 +150,7 @@ System.out.println(a.getBrand());
 
 Collection is any data structure where objects are stored and iterated over. Data Structure in itself is a huge topic and I will try to cover it in a separate series. Here, we will try to cover some basic data structures in java collection libraries.
 
-<img src="/src/images/posts/java-img/collection.jpeg" alt="java collection">
+<img src="https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/java-img/collection.jpeg">
 
 - Collection is an interface from which set, list and queue extends.
 - Collections Class holds static utility methods to use with collections.
