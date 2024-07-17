@@ -1,7 +1,7 @@
 ---
 title: About
 slug: about_me
-date: 2000-5-25
+date: 2000-4-25
 author: Atharva Joshi
 read_time: 1
 tags: [My Journey]
@@ -19,21 +19,21 @@ emoji: "🙂"
         }
     </style>
 
-<div>
-    This is a <span class="highlight-green">
-        highlighted part
-    </span> of the text
-</div>
-
-# Atharva Joshi
-
-🎓 Junior | 💻 Aspiring Software Developer | 📲Seeking Internships for CSE | Open-Source Enthusiast 💜 | DevOps 🌤️
-
 <div align="center">
-  
+
+💻 Aspiring Software Developer | 📲Seeking SWE Internships | Open-Source Enthusiast 💜
+
 # Hello, geeks! 👋
 
-I am Atharva Joshi. I consider myself as a smart worker and determined team player. I am an experienced developer skilled in Version Control System, Java, Android Development, Full Stack Development, MERN, Javascript and its frameworks.
+<div>
+I am <span class="highlight-green">
+Atharva Joshi
+</span>
+. I consider myself as a smart worker and determined team player. I am an experienced developer skilled in Version Control System, Java, Android Development, Full Stack Development.
+
+</div>
+
+</div>
 
 ### 😄 Pronouns
 
@@ -41,70 +41,55 @@ He/His
 
 ### 🌱 What do I do?
 
-- ✔️Along with it, I have strong media and communication professional with a Bachelor of Technology focused in Electrical Engineering.
+- ✔️I have strong media and communication professional with a Bachelor of Technology focused in Electrical Engineering.
 
-- ✔️I'm a fast learner looking for interesting career opportunities in Android and Web as a full-stack developer. I am awaiting a job with a decent salary and more importantly, a chance to build up my career and skills. I am looking for growth. Currently, I am looking for internships and research projects in the field of Computer science and engineering.
+- ✔️I'm a fast learner looking for interesting career opportunities as Backend developer. I am awaiting a job with a decent salary and more importantly, a chance to build up my career and skills.
 
-- ✔️My activities are much beyond my stream of education. Apart from this, I love the marketing and stocks field. I am a keen observer and always inquisitive to learn new things. I fit beautifully to the environment and add to the diversity of the team and research has shown that diversity often makes for better, most successful teams.
+- ✔️I am a keen observer and always inquisitive to learn new things. I fit beautifully to the environment and add to the diversity of the team and research has shown that diversity often makes for better, most successful teams.
 
 ### ⚡ One line that describes me best?
 
 An ambitious boy who loves to day dream at nights and sometime codes too.😉😉
 
-### 👯 My other interests
+## 💻 Skills & Interests
 
-I have a knack for writing too and write on my personal blog- [Atharva Codes](https://atharva-codes.netlify.app/) or on [Medium](https://medium.com/@atharva2520).
-I look forward to absorb knowledge🧠,gain experience👨‍🏭, collaborate🤝 and build amazing products 🏭for the world🌍!
+- 🧠 Machine Learning
+- 🤖 TensorFlow
+- ☕ Java
+- 🗄️ MySQL
+- 🖥️ C/C++
+- 🚀 Spring Boot
+- 📦 Microservices
+- 🔄 Kafka (ongoing)
+- 🚗 Electric Vehicles
+- 👨‍💻 Programming
+- 📊 Data Analytics
 
-### 📫 How to reach me?
+## 🏅 LeetCode Profile
 
-If you would like to discuss these things, you can join me on [Twitter](https://twitter.com/ceo_joshi) or [LinkedIn](https://www.linkedin.com/in/atharva-joshi-2520/). You can also ask me anything (within reason). My Github is [here](https://github.com/atharva20-coder).
+- [LeetCode Profile - Atharva Joshi](https://leetcode.com/u/atharva20-coder/)
 
-### 💬 Want to know more about me?
+### LeetCode Contributions Graph
 
-You can find me on- [My personal portfolio](https://www.devatharva.com/).
+<img src = "/src/images/leetcode.jpeg">
 
-<!--
-**atharva20-coder/atharva20-coder** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## 💼 Experience
 
-Here are some ideas to get you started:
+- **Bharat Sanchar Nigam Limited**
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  - Gained valuable exposure to network infrastructures 🏢
 
-_Thank you for reading my blog posts. If you want to contact me, Please send me an email on atharvajoshi131995@gmail.com._
+- **Research Intern (College)**
+  - Worked on machine learning applications, specifically disease classification in apple leaves using convolutional neural networks 🌿
+  - Developed skills in data handling, analysis, and applying machine learning techniques to real-world problems 🌐
 
-</div>
+## 📜 Certifications
 
-## Skills
+- [📚 Business Considerations for 5G with Edge, IoT, and AI](https://courses.edx.org/certificates/c54b060ad9ce448dbcd236decd638434)
+- [📊 Fundamentals of Data Analysis](https://media.licdn.com/dms/image/D4D2DAQF0HaCbX4G7_g/profile-treasury-document-cover-images_800/0/1707125638222?e=1721808000&v=beta&t=8H9pxbTN2Zy0datXFHIN49pXp-AfCjVngEi8ZTe28Qg)
+- [🔐 Cyber Security](https://courses.edx.org/certificates/b8508803b2d04533907d01136ed13a98)
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-around; align-items: stretch;">
-    <div style="margin: 10px; padding: 20px; width: calc(50% - 22px); border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);">
-        <h3 style="text-align: center;"><img src="https://example.com/camera_icon_url" style="width: 40px;"> Software Development</h3>
-        <p>While I am flexible in adopting new technologies, I have a particular affinity for <strong>Java</strong>.</p>
-    </div>
-    <div style="margin: 10px; padding: 20px; width: calc(50% - 22px); border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);">
-        <h3 style="text-align: center;"><img src="https://example.com/design_icon_url" style="width: 40px;"> Machine Learning</h3>
-        <p>I have extensive experience with various <strong>Machine Learning</strong> and <strong>Computer Vision</strong> projects from my college days.</p>
-    </div>
-    <div style="margin: 10px; padding: 20px; width: calc(50% - 22px); border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);">
-        <h3 style="text-align: center;"><img src="https://example.com/web_dev_icon_url" style="width: 40px;"> Web Development</h3>
-        <p>Constantly learning and developing new skills in web technologies.</p>
-    </div>
-    <div style="margin: 10px; padding: 20px; width: calc(50% - 22px); border-radius: 10px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.15);">
-        <h3 style="text-align: center;"><img src="https://example.com/mobile_app_icon_url" style="width: 40px;"> Android Development</h3>
-        <p>I have developed several Android applications that are in use today.</p>
-    </div>
-</div>
-
-## Education Timeline
+## Education 🎓
 
 <div style="position: relative; margin-left: 20px;">
     <div style="margin-bottom: 20px;">
@@ -133,43 +118,13 @@ _Thank you for reading my blog posts. If you want to contact me, Please send me 
     </div>
 </div>
 
-<style>
-    /* Hide the default scrollbar */
-    ::-webkit-scrollbar {
-        display: none;
-    }
-    
-    /* Style for the container */
-    .testimonial-container {
-        width: 100%;
-        overflow-x: auto;
-        white-space: nowrap;
-        padding-bottom: 20px; /* Add some padding to prevent content from sticking to the bottom */
-    }
-    
-    /* Style for the individual testimonial cards */
-    .testimonial-card {
-        display: inline-block;
-        margin-right: 20px;
-        width: 300px; /* Fixed width for the card */
-        height: 200px; /* Fixed height for the card */
-        overflow-y: auto; /* Enable vertical scrolling */
-        border: 1px solid #ccc;
-        border-radius: 10px;
-        padding: 20px;
-        box-sizing: border-box; /* Ensure padding is included in the width */
-    }
-</style>
+### 👯 My other interests
 
-## Testimonials
+I have a knack for writing too and write on my personal [blogs](https://atharva-codes.netlify.app/).
+I look forward to absorb knowledge🧠,gain experience👨‍🏭, collaborate🤝 and build amazing products 🏭for the world🌍!
 
-<div class="testimonial-container">
-    <div class="testimonial-card">
-        <p><strong>Daniel Lewis</strong></p>
-        <p>Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-    <div class="testimonial-card">
-        <p><strong>Jessica Miller</strong></p>
-        <p>Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of the client. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-</div>
+### 📫 How to reach me?
+
+_If you want to contact me, Please send me an email on atharvajoshi131995@gmail.com._
+
+Or you can join me on [Twitter](https://twitter.com/ceo_joshi) or [LinkedIn](https://www.linkedin.com/in/atharva-joshi-2520/). You can also ask me anything. My Github is [here](https://github.com/atharva20-coder).
