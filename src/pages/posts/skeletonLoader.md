@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 4
 tags: ["HTML", "CSS"]
 order: 3
-hero: https://atharvacodes.netlify.app/static/92c091b4e6d2f27a1cd5db77c85e23b0/d61c2/skeleton.png
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/htm-css-js/skeleton.png
 draft: false
 emoji: "💀"
 ---

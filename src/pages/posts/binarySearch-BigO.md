@@ -8,6 +8,7 @@ tags: [Algorithms]
 order: 1
 hero: https://atharvacodes.netlify.app/763cc6ee83ecac0e63ace2db8cf46324/Binary_Search.svg
 draft: false
+emoji: "🔍"
 ---
 
 In my previous <a href="https://atharvacodes.netlify.app/DSA/algorithm/" target="blank">blog</a> we've had seen that what is Data Structures and Algorithms are, and also have looked into an example of **Jhon** and **Ana** by playing a game of guessing a number and by observation we concluded that Jhons approach is called Linear Search whereas Ana's approach is called Binary Search.

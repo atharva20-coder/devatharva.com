@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 5
 tags: [Java]
 order: 1
-hero: /src/images/posts/java-img/javaBanner.jpg
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/java-img/javaBanner.jpg
 draft: false
 emoji: "</>"
 ---

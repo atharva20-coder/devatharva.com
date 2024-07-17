@@ -1,16 +1,14 @@
 ---
-title: Git and GitHub for biginners
+title: Getting started with 🧠 Git and GitHub
 slug: git-github-for-biginners
 date: 2021-4-18
 author: Atharva Joshi
 read_time: 5
 tags: [GitHub]
 order: 1
-hero: /src/images/posts/project-imgs/git.gif
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/project-imgs/git.gif
 draft: false
 ---
-
-# Getting started with 🧠 Git and GitHub 💬.
 
 ## What is GIT?
 

@@ -8,6 +8,7 @@ tags: [iconic]
 order: 3
 hero: https://atharvacodes.netlify.app/static/29483004d9bd7d23af3ebd57ecadf62b/4ef49/ionic.png
 draft: false
+emoji: "⚛"
 ---
 
 # Convert your existing Reactjs app to android or iOS app using <img src="https://img.shields.io/badge/Ionic-3880FF?style=for-the-badge&logo=ionic&logoColor=white" style="vertical-align:middle" alt="react-background"> Capacitor

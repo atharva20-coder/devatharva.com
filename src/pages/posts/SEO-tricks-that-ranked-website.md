@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 5
 tags: [Django, Wordpress]
 order: 3
-hero: https://dennisivy-personal.s3.amazonaws.com/images/Seo_thumbnail4.jpg
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/posts/seo.jpg
 draft: false
 emoji: "🕸️"
 ---

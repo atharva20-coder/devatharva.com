@@ -6,7 +6,7 @@ author: Atharva Joshi
 read_time: 1
 tags: [My Journey]
 order: 3
-hero: /src/images/bk.png
+hero: https://raw.githubusercontent.com/atharva20-coder/devatharva.com/master/src/images/bk.png
 draft: false
 emoji: "🙂"
 ---

@@ -8,6 +8,7 @@ tags: [Algorithms]
 order: 1
 hero: https://atharvacodes.netlify.app/static/5b6191f2c688751a4f5f97c389e3ba2d/eea4a/dsa.jpg
 draft: false
+emoji: "💡"
 ---
 
 In these new series of blogs we will start learning DSA.
