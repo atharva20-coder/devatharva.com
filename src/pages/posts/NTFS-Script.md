@@ -46,15 +46,18 @@ All while sipping coffee. ☕ Let’s dive in!
 1. **Install Homebrew** 🍺:
    ```bash
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
 
 2. **Get `ntfs-3g`** 🚀:
    ```bash
    brew install ntfs-3g
+   ```
 
 2. **Python (v3.x)`** 🐍:
   - Already on macOS? perfect. If not, install it:
    ```bash
    brew install python3
+   ```
 
 ## <a name="prerequisites"></a> The Python Script: Your Loyal Sidekick 🐍
 
